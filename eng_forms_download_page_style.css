@@ -19,6 +19,18 @@ u {
   text-decoration: underline;
 }
 
+#admin-finance-accont-section {
+  background-color: skyblue;
+  border: 5px solid black;
+  padding: 12px;
+}
+
+#button-group {
+  background-color: chocolate;
+  border: 5px solid darkslategrey;
+  padding: 12px;
+}
+
 #postgradute-section {
   background-color: aqua;
   border: 5px solid black;
@@ -30,13 +42,6 @@ u {
   border: 5px solid black;
   padding: 12px;
 }
-
-#admin-finance-accont-section {
-  background-color: skyblue;
-  border: 5px solid black;
-  padding: 12px;
-}
-
 .beautiful-table tbody th,
 .beautiful-table tbody tr {
   margin: auto;
@@ -90,6 +95,84 @@ u {
 
 .even-record {
   background-color: coral;
+}
+
+#left-div-button {
+  background-color: #f26522;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: bold;
+}
+
+#left-div-button:hover {
+  background-color: #6d6e70;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: bold;
+}
+
+#mid-div-button {
+  background-color: #f26522;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  left: 25%;
+  text-align: center;
+  text-decoration: bold;
+}
+
+#mid-div-button:hover {
+  background-color: #6d6e70;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: bold;
+}
+
+#right-div-button {
+  background-color: #f26522;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-decoration: bold;
+  left: 50%;
+}
+
+#right-div-button:hover {
+  background-color: #6d6e70;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: bold;
 }
 
 .odd-record {
