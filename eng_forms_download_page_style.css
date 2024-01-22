@@ -1,5 +1,7 @@
 body {
   background-color: whitesmoke;
+  font-family: "Noto Sans Thai";
+  font-size: 22px;
 }
 
 h1,
@@ -31,71 +33,6 @@ u {
   padding: 12px;
 }
 
-#postgradute-section {
-  background-color: aqua;
-  border: 5px solid black;
-  padding: 12px;
-}
-
-#undergradute-section {
-  background-color: aquamarine;
-  border: 5px solid black;
-  padding: 12px;
-}
-.beautiful-table tbody th,
-.beautiful-table tbody tr {
-  margin: auto;
-  width: 50%;
-  padding: 1px;
-  text-align: center;
-}
-
-.table-header {
-  border: 2px solid #a67436;
-}
-
-.beautiful-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.beautiful-table th,
-.beautiful-table td {
-  border: 1px solid #d0d0d0;
-  padding: 12px;
-}
-
-.beautiful-table th {
-  background-color: #f26522;
-  color: #fff;
-}
-
-.beautiful-table tbody tr:hover {
-  background-color: #f5f5f5;
-}
-
-.center {
-  text-align: center;
-  border: 3px solid green;
-}
-
-.button {
-  border: none;
-  color: #6d6e70;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.even-record {
-  background-color: coral;
-}
 
 #left-div-button {
   background-color: #f26522;
@@ -149,6 +86,12 @@ u {
   text-decoration: bold;
 }
 
+#postgradute-section {
+  background-color: aqua;
+  border: 5px solid black;
+  padding: 12px;
+}
+
 #right-div-button {
   background-color: #f26522;
   border: none;
@@ -175,6 +118,77 @@ u {
   text-decoration: bold;
 }
 
+#undergradute-section {
+  background-color: aquamarine;
+  border: 5px solid black;
+  padding: 12px;
+}
+
+.beautiful-table tbody th,
+.beautiful-table tbody tr {
+  margin: auto;
+  width: 50%;
+  padding: 1px;
+  text-align: center;
+}
+
+.beautiful-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.beautiful-table th,
+.beautiful-table td {
+  border: 1px solid #6d6e70;
+  padding: 12px;
+}
+
+.beautiful-table th {
+  background-color: #f26522;
+  color: #fff;
+}
+
+.beautiful-table tbody td:hover {
+  background-color: powderblue;
+}
+
+.button {
+  border: none;
+  color: #6d6e70;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-head {
+  text-decoration: none;
+  color: black;
+}
+
+.button-head:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+
+.even-record {
+  background-color: coral;
+}
+
 .odd-record {
   background-color: bisque;
+}
+
+.table-header {
+  border: 2px solid #a67436;
 }
