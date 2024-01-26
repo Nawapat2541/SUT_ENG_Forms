@@ -40,194 +40,9 @@ u {
   padding: 12px;
 }
 
-#button-group1 {
+#button-group {
   background-color: white;
   border: 5px solid darkslategrey;
-  padding: 12px;
-}
-
-#button-group2 {
-  background-color: white;
-  border: 5px solid darkslategrey;
-  padding: 12px;
-}
-
-#go-back-icon {
-  font-size: xx-large;
-  color: red;
-}
-
-#left-div-button1 {
-  background-color: #f26522;
-  border: none;
-  color: black;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: bold;
-}
-
-#left-div-button1:hover {
-  background-color: #6d6e70;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: bold;
-}
-
-#left-div-button2 {
-  background-color: #f26522;
-  border: none;
-  color: black;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: bold;
-}
-
-#left-div-button2:hover {
-  background-color: #6d6e70;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: bold;
-}
-
-#mid-div-button1 {
-  background-color: #f26522;
-  border: none;
-  color: black;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  left: 10%;
-  text-align: center;
-  text-decoration: bold;
-}
-
-#mid-div-button1:hover {
-  background-color: #6d6e70;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: bold;
-}
-
-#mid-div-button2 {
-  background-color: #f26522;
-  border: none;
-  color: black;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  left: 20%;
-  text-align: center;
-  text-decoration: bold;
-}
-
-#mid-div-button2:hover {
-  background-color: #6d6e70;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: bold;
-}
-
-#postgradute-section {
-  background-color: white;
-  border: 5px solid black;
-  padding: 12px;
-}
-
-#right-div-button1 {
-  background-color: #f26522;
-  border: none;
-  color: black;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  text-decoration: bold;
-  left: 22%;
-}
-
-#right-div-button1:hover {
-  background-color: #6d6e70;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: bold;
-}
-
-#right-div-button2 {
-  background-color: #f26522;
-  border: none;
-  color: black;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  text-decoration: bold;
-  left: 33%;
-}
-
-#right-div-button2:hover {
-  background-color: #6d6e70;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: bold;
-}
-
-#top-action-bar {
-  background-color: white;
-  border: 8px solid black;
-  padding: 16px;
-}
-
-#undergradute-section {
-  background-color: white;
-  border: 5px solid black;
   padding: 12px;
 }
 
@@ -255,6 +70,106 @@ u {
 .beautiful-table td {
   border: 1px solid #6d6e70;
   padding: 12px;
+}
+
+.beautiful-table tbody td:hover {
+  background-color: #daa06d;
+}
+
+#go-back-icon {
+  font-size: xx-large;
+  color: red;
+}
+
+#left-div-button {
+  background-color: #f26522;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: bold;
+  left: 15%;
+}
+
+#left-div-button:hover {
+  background-color: #6d6e70;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: bold;
+}
+
+#right-div-button {
+  background-color: #f26522;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-decoration: bold;
+  left: 38%;
+}
+
+#right-div-button:hover {
+  background-color: #6d6e70;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: bold;
+}
+
+#top-action-bar {
+  background-color: white;
+  border: 8px solid black;
+  padding: 12px;
+}
+
+#undergradute-section {
+  background-color: white;
+  border: 5px solid black;
+  padding: 12px;
+}
+
+.beautiful-table tbody th,
+.beautiful-table tbody tr {
+  margin: auto;
+  width: 50%;
+  padding: 1px;
+  text-align: center;
+}
+
+.beautiful-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.beautiful-table th,
+.beautiful-table td {
+  border: 1px solid #6d6e70;
+  padding: 12px;
+}
+
+.beautiful-table th {
+  background-color: #f26522;
+  color: #fff;
 }
 
 .beautiful-table tbody td:hover {

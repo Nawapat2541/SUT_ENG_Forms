@@ -13,10 +13,6 @@ body {
   font-size: 22px;
 }
 
-html {
-  text-size-adjust: 100%;
-}
-
 h1,
 h2 {
   color: black;
@@ -40,13 +36,7 @@ u {
   padding: 12px;
 }
 
-#button-group1 {
-  background-color: white;
-  border: 5px solid darkslategrey;
-  padding: 12px;
-}
-
-#button-group2 {
+#button-group {
   background-color: white;
   border: 5px solid darkslategrey;
   padding: 12px;
@@ -83,7 +73,7 @@ u {
   text-decoration: bold;
 }
 
-#left-div-button2 {
+#mid-left-div-button1 {
   background-color: #f26522;
   border: none;
   color: black;
@@ -91,12 +81,12 @@ u {
   padding: 15px 32px;
   position: relative;
   display: inline-block;
-  font-size: 16px;
+  left: 12%;
   text-align: center;
   text-decoration: bold;
 }
 
-#left-div-button2:hover {
+#mid-left-div-button1:hover {
   background-color: #6d6e70;
   border: none;
   color: white;
@@ -109,7 +99,7 @@ u {
   text-decoration: bold;
 }
 
-#mid-div-button1 {
+#mid-right-div-button1 {
   background-color: #f26522;
   border: none;
   color: black;
@@ -117,38 +107,12 @@ u {
   padding: 15px 32px;
   position: relative;
   display: inline-block;
-  left: 10%;
+  left: 25%;
   text-align: center;
   text-decoration: bold;
 }
 
-#mid-div-button1:hover {
-  background-color: #6d6e70;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: bold;
-}
-
-#mid-div-button2 {
-  background-color: #f26522;
-  border: none;
-  color: black;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  left: 20%;
-  text-align: center;
-  text-decoration: bold;
-}
-
-#mid-div-button2:hover {
+#mid-right-div-button1:hover {
   background-color: #6d6e70;
   border: none;
   color: white;
@@ -177,7 +141,7 @@ u {
   display: inline-block;
   text-align: center;
   text-decoration: bold;
-  left: 22%;
+  left: 38%;
 }
 
 #right-div-button1:hover {
@@ -193,36 +157,10 @@ u {
   text-decoration: bold;
 }
 
-#right-div-button2 {
-  background-color: #f26522;
-  border: none;
-  color: black;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  text-decoration: bold;
-  left: 33%;
-}
-
-#right-div-button2:hover {
-  background-color: #6d6e70;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: bold;
-}
-
 #top-action-bar {
   background-color: white;
   border: 8px solid black;
-  padding: 16px;
+  padding: 12px;
 }
 
 #undergradute-section {
@@ -231,21 +169,16 @@ u {
   padding: 12px;
 }
 
-.beautiful-table th {
-  background-color: #f26522;
-  color: #fff;
-}
-
 .beautiful-table tbody th,
 .beautiful-table tbody tr {
-  margin:auto;
-  width: auto;
+  margin: auto;
+  width: 50%;
   padding: 1px;
   text-align: center;
 }
 
 .beautiful-table {
-  width: auto;
+  width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -255,6 +188,11 @@ u {
 .beautiful-table td {
   border: 1px solid #6d6e70;
   padding: 12px;
+}
+
+.beautiful-table th {
+  background-color: #f26522;
+  color: #fff;
 }
 
 .beautiful-table tbody td:hover {
@@ -312,10 +250,14 @@ u {
   background-color: lightgray;
 }
 
-.tbody-second-column {
+.second-column {
   text-align: left;
 }
 
 .table-header {
   border: 2px solid #a67436;
+}
+
+.tbody-second-column {
+  text-align: left;
 }
