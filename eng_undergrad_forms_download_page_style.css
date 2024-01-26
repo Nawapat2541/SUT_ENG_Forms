@@ -30,14 +30,12 @@ h5 {
   text-align: left;
 }
 
-u {
-  text-decoration: underline;
+table {
+  table-layout: fixed;
 }
 
-#admin-finance-accont-section {
-  background-color: white;
-  border: 5px solid black;
-  padding: 12px;
+u {
+  text-decoration: underline;
 }
 
 #button-group {
@@ -46,53 +44,9 @@ u {
   padding: 12px;
 }
 
-.beautiful-table th {
-  background-color: #f26522;
-  color: #fff;
-}
-
-.beautiful-table tbody th,
-.beautiful-table tbody tr {
-  margin:auto;
-  width: auto;
-  padding: 1px;
-  text-align: center;
-}
-
-.beautiful-table {
-  width: auto;
-  border-collapse: collapse;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.beautiful-table th,
-.beautiful-table td {
-  border: 1px solid #6d6e70;
-  padding: 12px;
-}
-
-.beautiful-table tbody td:hover {
-  background-color: #daa06d;
-}
-
 #go-back-icon {
   font-size: xx-large;
   color: red;
-}
-
-#left-div-button {
-  background-color: #f26522;
-  border: none;
-  color: black;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: bold;
-  left: 15%;
 }
 
 #left-div-button:hover {
@@ -144,6 +98,20 @@ u {
   background-color: white;
   border: 5px solid black;
   padding: 12px;
+}
+
+#left-div-button {
+  background-color: #f26522;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: bold;
+  left: 15%;
 }
 
 .beautiful-table tbody th,

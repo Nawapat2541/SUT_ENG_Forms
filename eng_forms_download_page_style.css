@@ -30,6 +30,10 @@ h5 {
   text-align: left;
 }
 
+table {
+  table-layout: fixed;
+}
+
 u {
   text-decoration: underline;
 }
@@ -231,21 +235,16 @@ u {
   padding: 12px;
 }
 
-.beautiful-table th {
-  background-color: #f26522;
-  color: #fff;
-}
-
 .beautiful-table tbody th,
 .beautiful-table tbody tr {
-  margin:auto;
-  width: auto;
+  margin: auto;
+  width: 50%;
   padding: 1px;
   text-align: center;
 }
 
 .beautiful-table {
-  width: auto;
+  width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -255,6 +254,11 @@ u {
 .beautiful-table td {
   border: 1px solid #6d6e70;
   padding: 12px;
+}
+
+.beautiful-table th {
+  background-color: #f26522;
+  color: #fff;
 }
 
 .beautiful-table tbody td:hover {

@@ -26,6 +26,10 @@ h5 {
   text-align: left;
 }
 
+table {
+  table-layout: fixed;
+}
+
 u {
   text-decoration: underline;
 }
