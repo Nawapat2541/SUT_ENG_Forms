@@ -32,14 +32,10 @@ u {
 
 #admin-finance-accont-section {
   background-color: white;
-  border: 5px solid black;
-  padding: 12px;
 }
 
 #button-group {
   background-color: white;
-  border: 5px solid darkslategrey;
-  padding: 12px;
 }
 
 #go-back-icon {
@@ -127,16 +123,12 @@ u {
 
 #postgradute-section {
   background-color: white;
-  border: 5px solid black;
-  padding: 12px;
 }
 
 #right-div-button1 {
   background-color: #f26522;
   border: none;
-  color: black;
   font-size: 16px;
-  padding: 15px 32px;
   position: relative;
   display: inline-block;
   text-align: center;
@@ -159,14 +151,10 @@ u {
 
 #top-action-bar {
   background-color: white;
-  border: 8px solid black;
-  padding: 12px;
 }
 
 #undergradute-section {
   background-color: white;
-  border: 5px solid black;
-  padding: 12px;
 }
 
 .beautiful-table tbody th,

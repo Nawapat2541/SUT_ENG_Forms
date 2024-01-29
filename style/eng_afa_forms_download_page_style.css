@@ -13,10 +13,6 @@ body {
   font-size: 22px;
 }
 
-html {
-  text-size-adjust: 100%;
-}
-
 h1,
 h2 {
   color: black;
@@ -38,10 +34,13 @@ u {
   text-decoration: underline;
 }
 
+#admin-finance-accont-section {
+  background-color: white;
+  padding: 12px;
+}
+
 #button-group {
   background-color: white;
-  border: 5px solid darkslategrey;
-  padding: 12px;
 }
 
 #go-back-icon {
@@ -49,7 +48,21 @@ u {
   color: red;
 }
 
-#left-div-button:hover {
+#left-div-button1 {
+  background-color: #f26522;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: bold;
+}
+
+
+#left-div-button1:hover {
   background-color: #6d6e70;
   border: none;
   color: white;
@@ -62,7 +75,61 @@ u {
   text-decoration: bold;
 }
 
-#right-div-button {
+#mid-left-div-button1 {
+  background-color: #f26522;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  left: 12%;
+  text-align: center;
+  text-decoration: bold;
+}
+
+#mid-left-div-button1:hover {
+  background-color: #6d6e70;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: bold;
+}
+
+#mid-right-div-button1 {
+  background-color: #f26522;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  left: 25%;
+  text-align: center;
+  text-decoration: bold;
+}
+
+#mid-right-div-button1:hover {
+  background-color: #6d6e70;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: bold;
+}
+
+#right-div-button1 {
   background-color: #f26522;
   border: none;
   color: black;
@@ -75,7 +142,7 @@ u {
   left: 38%;
 }
 
-#right-div-button:hover {
+#right-div-button1:hover {
   background-color: #6d6e70;
   border: none;
   color: white;
@@ -90,28 +157,10 @@ u {
 
 #top-action-bar {
   background-color: white;
-  border: 8px solid black;
-  padding: 12px;
 }
 
 #undergradute-section {
   background-color: white;
-  border: 5px solid black;
-  padding: 12px;
-}
-
-#left-div-button {
-  background-color: #f26522;
-  border: none;
-  color: black;
-  font-size: 16px;
-  padding: 15px 32px;
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: bold;
-  left: 15%;
 }
 
 .beautiful-table tbody th,
@@ -146,19 +195,12 @@ u {
 
 .button {
   border: none;
-  color: #6d6e70;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-}
-
-.button-head {
-  text-decoration: none;
-  color: black;
 }
 
 .button-head:hover {
@@ -195,10 +237,14 @@ u {
   background-color: lightgray;
 }
 
-.tbody-second-column {
+.second-column {
   text-align: left;
 }
 
 .table-header {
   border: 2px solid #a67436;
+}
+
+.tbody-second-column {
+  text-align: left;
 }
