@@ -222,6 +222,10 @@ u {
   background-color: whitesmoke;
 }
 
+.fa-link {
+  color: #551a8b;
+}
+
 .fa-file-pdf-o {
   color: #f68a1e;
 }
@@ -234,7 +238,7 @@ u {
   color: #185abd;
 }
 
-.fa-file-word-o:hover, .fa-file-pdf-o:hover, .fa-file-powerpoint-o:hover {
+.fa-file-pdf-o:hover, .fa-file-powerpoint-o:hover, .fa-file-word-o:hover, .fa-link:hover  {
   color: white;
 }
 
