@@ -133,6 +133,7 @@ u {
   background-color: #f26522;
   border: none;
   font-size: 16px;
+  padding: 15px 32px;
   position: relative;
   display: inline-block;
   text-align: center;
@@ -252,4 +253,20 @@ u {
 
 .table-header {
   border: 2px solid #a67436;
+}
+
+.table-column1 {
+  width: 12%;
+}
+
+.table-column2 {
+  width: 65%;
+}
+
+.table-column3 {
+  width: 10%;
+}
+
+.table-column4 {
+  width: 13%;
 }

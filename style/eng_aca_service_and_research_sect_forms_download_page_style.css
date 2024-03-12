@@ -42,11 +42,6 @@ u {
   text-decoration: underline;
 }
 
-#admin-finance-accont-section {
-  background-color: white;
-  padding: 12px;
-}
-
 #button-group {
   background-color: white;
 }
@@ -69,8 +64,20 @@ u {
   text-decoration: bold;
 }
 
+#left-div-button2 {
+  background-color: #f26522;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: bold;
+}
 
-#left-div-button1:hover {
+#left-div-button1:hover, #left-div-button2:hover {
   background-color: #6d6e70;
   border: none;
   color: white;
@@ -91,13 +98,25 @@ u {
   padding: 15px 32px;
   position: relative;
   display: inline-block;
-  font-size: 16px;
-  left: 12%;
+  left: 3%;
   text-align: center;
   text-decoration: bold;
 }
 
-#mid-left-div-button1:hover {
+#mid-left-div-button2 {
+  background-color: #f26522;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  left: 3%;
+  text-align: center;
+  text-decoration: bold;
+}
+
+#mid-left-div-button1:hover, #mid-left-div-button2:hover {
   background-color: #6d6e70;
   border: none;
   color: white;
@@ -118,13 +137,25 @@ u {
   padding: 15px 32px;
   position: relative;
   display: inline-block;
-  font-size: 16px;
-  left: 25%;
+  left: 5%;
   text-align: center;
   text-decoration: bold;
 }
 
-#mid-right-div-button1:hover {
+#mid-right-div-button2 {
+  background-color: #f26522;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  left: 5%;
+  text-align: center;
+  text-decoration: bold;
+}
+
+#mid-right-div-button1:hover, #mid-right-div-button2:hover {
   background-color: #6d6e70;
   border: none;
   color: white;
@@ -137,20 +168,35 @@ u {
   text-decoration: bold;
 }
 
+#postgradute-section {
+  background-color: white;
+}
+
 #right-div-button1 {
   background-color: #f26522;
   border: none;
-  color: black;
   font-size: 16px;
   padding: 15px 32px;
   position: relative;
   display: inline-block;
   text-align: center;
   text-decoration: bold;
-  left: 38%;
+  left: 10%;
 }
 
-#right-div-button1:hover {
+#right-div-button2 {
+  background-color: #f26522;
+  border: none;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-decoration: bold;
+  left: 5%;
+}
+
+#right-div-button1:hover, #right-div-button2:hover {
   background-color: #6d6e70;
   border: none;
   color: white;
@@ -166,6 +212,7 @@ u {
 #top-action-bar {
   background-color: white;
 }
+
 
 .beautiful-table tbody th,
 .beautiful-table tbody tr {
@@ -199,6 +246,8 @@ u {
 
 .button {
   border: none;
+  color: #6d6e70;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -238,11 +287,15 @@ u {
   color: #c03e1c;
 }
 
-.fa-file-word-o {
-  color: #185abd;
+.fa-file-excel-o {
+  color: #105abd;
 }
 
-.fa-file-pdf-o:hover, .fa-file-powerpoint-o:hover, .fa-file-word-o:hover, .fa-link:hover  {
+.fa-file-excel-o {
+  color: #187c41;
+}
+
+.fa-file-pdf-o:hover, .fa-file-powerpoint-o:hover, .fa-file-word-o:hover, .fa-file-excel-o:hover, .fa-link:hover  {
   color: white;
 }
 
@@ -250,16 +303,12 @@ u {
   background-color: lightgray;
 }
 
-.second-column {
+.tbody-second-column {
   text-align: left;
 }
 
 .table-header {
   border: 2px solid #a67436;
-}
-
-.tbody-second-column {
-  text-align: left;
 }
 
 .table-column1 {
@@ -277,4 +326,3 @@ u {
 .table-column4 {
   width: 13%;
 }
-
